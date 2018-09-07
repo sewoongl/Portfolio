@@ -124,19 +124,19 @@ var gApp = angular.module('gApp', []);
 
 $(document).ready(function(){
    $($('li').eq(9)).mouseenter(function(){
-       $($("img").eq(0)).prop("src","../images/team/UIgif.gif");
+       $($("img").eq(0)).prop("src","images/team/UIgif.gif");
    }).mouseleave(function(){
-       $($("img").eq(0)).prop("src","../images/team/UImain.jpg");
+       $($("img").eq(0)).prop("src","images/team/UImain.jpg");
    });
    $($('li').eq(10)).mouseenter(function(){
-       $($("img").eq(1)).prop("src","../images/personal/PersonalImpression.gif");
+       $($("img").eq(1)).prop("src","images/personal/PersonalImpression.gif");
    }).mouseleave(function(){
-       $($("img").eq(1)).prop("src","../images/personal/PersonalImpression_1.gif");
+       $($("img").eq(1)).prop("src","images/personal/PersonalImpression_1.gif");
    });
    $($('li').eq(11)).mouseenter(function(){
-       $($("img").eq(2)).prop("src","../images/personal/PersonalImpression.gif");
+       $($("img").eq(2)).prop("src","images/personal/PersonalImpression.gif");
    }).mouseleave(function(){
-       $($("img").eq(2)).prop("src","../images/personal/PersonalImpression_1.gif");
+       $($("img").eq(2)).prop("src","images/personal/PersonalImpression_1.gif");
    });
        
 

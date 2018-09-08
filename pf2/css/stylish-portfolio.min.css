@@ -18,10 +18,10 @@
 /*thinking박스*/
 #think_box {
     width: 30vw;
-    height: 510px;
+    height: auto;
     min-width: 300px;
     position: fixed;
-    top: 15%;
+    top: 5%;
     left: 50%;
     transform: translateX(-50%);
     background-color: white;

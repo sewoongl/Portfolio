@@ -17,11 +17,11 @@
 }
 /*thinking박스*/
 #think_box {
-    width: 50vw;
+    width: 45vw;
     height: auto;
     min-width: 300px;
     position: fixed;
-    top: 5%;
+    top: 10%;
     left: 50%;
     transform: translateX(-50%);
     background-color: white;

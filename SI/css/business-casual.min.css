@@ -104,7 +104,11 @@
     display: inline-block;
     font-size: 3px;
 }
-
+/*임과장님*/
+#mem4{
+    left: 50%;
+    height: 320px;
+}
 /*나*/
 #mem9 {
     height: 280px;

@@ -98,17 +98,36 @@
     border-radius: 7px;
     display: none;
 }
-
+/*이미지 없는 사람 div가운데 위치*/
+#mem2, #mem3, #mem4, #mem5, #mem7, #mem8{
+    text-align: center;
+    left: 50%;
+    height: 320px;
+}
+/*윤기과장님*/
+#mem6{
+    text-align: center;
+    top: 40%;
+    left: 30%;
+    height: 300px;        
+}
+#mem6_info1 {
+    width: 30vw;
+    height: 40vh;
+    position: fixed;
+    top: 35%;
+    left: 65%;
+    transform: translateX(-50%);
+    z-index: 2999;
+    border-radius: 7px;
+    display: none;
+}
 /*김대리님*/
 #mem7 p {
     display: inline-block;
     font-size: 3px;
 }
-/*임과장님*/
-#mem4{
-    left: 50%;
-    height: 320px;
-}
+
 /*나*/
 #mem9 {
     height: 280px;

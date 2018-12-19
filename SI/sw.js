@@ -15,15 +15,19 @@ $("#mem3Img").on("click", function(){
 });
 $("#mem4Img").on("click", function(){
     $("#layer").css("display", "block");
-    $("#mem4").css("display", "block");                 
+    $("#mem4").css("display", "block");
+    $("#mem4_info1").css("display", "block");
 });
 $("#mem5Img").on("click", function(){
     $("#layer").css("display", "block");
-    $("#mem5").css("display", "block");                 
+    $("#mem5").css("display", "block");
+    $("#mem5_info1").css("display", "block");
 });
 $("#mem6Img").on("click", function(){
     $("#layer").css("display", "block");
-    $("#mem6").css("display", "block");                 
+    $("#mem6").css("display", "block");
+    $("#mem6_info1").css("display", "block");
+    $("#mem6_info2").css("display", "block");
 });
 $("#mem7Img").on("click", function(){
     $("#layer").css("display", "block");
@@ -55,4 +59,8 @@ function layerOut(){
     $("#mem9").css("display", "none");
     $("#mem1_info1").css("display", "none");
     $("#mem1_info2").css("display", "none");
+    $("#mem4_info1").css("display", "none");
+    $("#mem5_info1").css("display", "none");
+    $("#mem6_info1").css("display", "none");
+    $("#mem6_info2").css("display", "none");
 }

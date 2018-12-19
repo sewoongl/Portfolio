@@ -104,18 +104,56 @@
     left: 50%;
     height: 320px;
 }
-/*윤기과장님*/
-#mem6{
+/*gif 있는 사람들*/
+#mem5, #mem6{
     text-align: center;
     top: 40%;
     left: 30%;
     height: 300px;        
 }
+#mem4{
+    top: 35%;
+    left: 30%;
+    height: 330px;        
+}
+#mem4_info1{
+    width: 25vw;
+    height: 40vh;
+    position: fixed;
+    top: 33%;
+    left: 60%;
+    transform: translateX(-50%);
+    z-index: 2999;
+    border-radius: 7px;
+    display: none;    
+}
+#mem5_info1{
+    width: 20vw;
+    height: 40vh;
+    position: fixed;
+    top: 35%;
+    left: 60%;
+    transform: translateX(-50%);
+    z-index: 2999;
+    border-radius: 7px;
+    display: none;
+}
 #mem6_info1 {
     width: 30vw;
     height: 40vh;
     position: fixed;
-    top: 35%;
+    top: 10%;
+    left: 65%;
+    transform: translateX(-50%);
+    z-index: 2999;
+    border-radius: 7px;
+    display: none;
+}
+#mem6_info2 {
+    width: 25vw;
+    height: 45vh;
+    position: fixed;
+    top: 53%;
     left: 65%;
     transform: translateX(-50%);
     z-index: 2999;

@@ -105,7 +105,7 @@
     height: 320px;
 }
 /*gif 있는 사람들*/
-#mem5, #mem6{
+#mem3, #mem5, #mem6, #mem7{
     text-align: center;
     top: 40%;
     left: 30%;
@@ -117,17 +117,17 @@
     height: 330px;        
 }
 #mem4_info1{
-    width: 25vw;
+    width: 20vw;
     height: 40vh;
     position: fixed;
-    top: 33%;
+    top: 32%;
     left: 60%;
     transform: translateX(-50%);
     z-index: 2999;
     border-radius: 7px;
     display: none;    
 }
-#mem5_info1{
+#mem3_info1, #mem5_info1, #mem7_info1{
     width: 20vw;
     height: 40vh;
     position: fixed;

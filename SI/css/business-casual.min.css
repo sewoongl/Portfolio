@@ -71,7 +71,6 @@
     z-index: 3000;
     display: none;
 }
-
 /*이사님*/
 #mem1{
     height: 280px;
@@ -98,36 +97,20 @@
     border-radius: 7px;
     display: none;
 }
-/*이미지 없는 사람 div가운데 위치*/
-#mem2, #mem3, #mem4, #mem5, #mem7, #mem8{
+/*임지선 부장님, 김슬기 사원님, 나*/
+#mem2, #mem8, #mem9{
     text-align: center;
     left: 50%;
     height: 320px;
 }
 /*gif 있는 사람들*/
-#mem3, #mem5, #mem6, #mem7{
+#mem3, #mem4, #mem5, #mem6, #mem7{
     text-align: center;
     top: 40%;
     left: 30%;
     height: 300px;        
 }
-#mem4{
-    top: 35%;
-    left: 30%;
-    height: 330px;        
-}
-#mem4_info1{
-    width: 20vw;
-    height: 40vh;
-    position: fixed;
-    top: 32%;
-    left: 60%;
-    transform: translateX(-50%);
-    z-index: 2999;
-    border-radius: 7px;
-    display: none;    
-}
-#mem3_info1, #mem5_info1, #mem7_info1{
+#mem3_info1, #mem4_info1, #mem5_info1, #mem7_info1{
     width: 20vw;
     height: 40vh;
     position: fixed;
@@ -138,6 +121,7 @@
     border-radius: 7px;
     display: none;
 }
+/*김윤기 과장님*/
 #mem6_info1 {
     width: 30vw;
     height: 40vh;
@@ -160,16 +144,10 @@
     border-radius: 7px;
     display: none;
 }
-/*김대리님*/
+/*김윤경 대리님*/
 #mem7 p {
     display: inline-block;
     font-size: 3px;
-}
-
-/*나*/
-#mem9 {
-    height: 280px;
-    left: 50%;
 }
 
 
